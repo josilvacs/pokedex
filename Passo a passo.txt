@@ -1,0 +1,28 @@
+git config --global user.name "José Antonio Gallo Junior"
+git config --global user.email "gallojunior@gmail.com"
+
+git clone https://github.com/gallojunior/Pokedex-3EtimA.git
+
+/* Apenas caso vc não tenha criado o GitIgnore no Repositório */
+dotnet new gitignore
+
+dotnet new sln --name Pokedex
+
+dotnet new mvc --name Pokedex -f Net6.0
+
+dotnet sln add Pokedex\Pokedex.csproj
+
+git add .
+
+git commit -m "Criada a solução e o projeto MVC Pokedex"
+
+git push
+
+
+
+
+dotnet watch run --project Pokedex\Pokedex.csproj
+
+/* Apos acessar a pasta do projeto no terminal */
+dotnet watch run
+
