@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:44057",
-      "sslPort": 44307
+      "applicationUrl": "http://localhost:45357",
+      "sslPort": 44368
     }
   },
   "profiles": {
-    "pokedex": {
+    "Pokedex": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7223;http://localhost:5051",
+      "applicationUrl": "https://localhost:7109;http://localhost:5126",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
